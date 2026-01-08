@@ -1,14 +1,16 @@
 import random
 
-#szoveg = input("Írj egy szót!:")
-#megforditott = ""
-#for elem in range(-1, -len(szoveg)-1,-1):
-#    print((szoveg[elem] + " ")*3 , end=" ")
-#    megforditott += szoveg[elem]
-#print()
+szoveg = input("Írj egy szót!:")
+megforditott = ""
+for elem in range(-1, -len(szoveg)-1,-1):
+    print((szoveg[elem] + " ")*3 , end=" ")
+    megforditott += szoveg[elem]
+print()
 
-#for elem in range(3):
- #   print(megforditott, end=" ")
+for elem in range(3):
+   print(megforditott, end=" ")
+
+print()
 
 #osszeg = 0
 #for index in range(1, 11, 1):
